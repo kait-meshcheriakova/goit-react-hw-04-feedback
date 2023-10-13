@@ -1,0 +1,27 @@
+.button {
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+  transition: transform 500ms ease-in-out;
+  text-transform: capitalize;
+  border: none;
+  width: 100px;
+}
+
+.button:first-child {
+  background-color: rgb(129, 239, 129);
+}
+
+.button:nth-child(2) {
+  background-color: rgb(162, 162, 236);
+}
+
+.button:nth-child(3) {
+  background-color: rgb(245, 108, 108);
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}

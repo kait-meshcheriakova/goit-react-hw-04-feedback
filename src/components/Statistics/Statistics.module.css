@@ -1,0 +1,24 @@
+.statText {
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.statText:nth-child(2) {
+  background-color: rgb(129, 239, 129);
+}
+.statText:nth-child(3) {
+  background-color: rgb(162, 162, 236);
+}
+.statText:nth-child(4) {
+  background-color: rgb(245, 108, 108);
+}
+.statText:nth-child(5) {
+  background-color: aquamarine;
+}
+.statText:last-child {
+  background-color: aquamarine;
+}
